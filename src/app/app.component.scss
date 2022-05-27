@@ -1,0 +1,25 @@
+.body {
+    height: calc(100vh - 31px);  
+    .game-body {
+        height: calc(100% - 40px) ;
+        width: 100%;
+        background-color: gray;
+        .target {
+            height: 300px;
+            width: 300px;
+            background-color: rgb(94, 12, 170);
+            transition: all 200 ms ease-in-out;
+        }
+    }
+
+}
+    
+    
+    .score-panel{
+        text-align: center;
+        height: 40px;
+        font-size: 2em;
+        font-weight: bold;
+        background-color: gray;
+        color: rgb(87, 7, 91);
+    }
